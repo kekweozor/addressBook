@@ -13,6 +13,7 @@ public class addressBook {
      *
      * */
     public static void main(String[] args) {
+
         addressBook.addBuddy(info1);
         addressBook.addBuddy(info2);
         addressBook.removeBuddy(info1);
