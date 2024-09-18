@@ -15,6 +15,7 @@ public class addressBook {
     public static void main(String[] args) {
         addressBook.addBuddy(info1);
         addressBook.addBuddy(info2);
+        addressBook.removeBuddy(info1);
         System.out.println(addressBook.addressList.get(1).getName());
         System.out.println("done!");
         System.out.println("Address Book");
